@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+}
+
+header {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.picture {
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+h3 {
+  display: inline;
+  background-color: rgba(242, 255, 92, 0.40);
+  border: medium solid rgba(242, 255, 92, .60);
+  border-radius: 50%;
+}
+
+main {
+  padding: 50px 50px 50px 65px;
+  background-color: rgba(242, 255, 92, 0.20);
+}
+
+ul {
+  list-style: square;
+}
+
+p {
+  padding-left: 25px;
+}
