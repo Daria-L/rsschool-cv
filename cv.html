@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Curriculum Vitae</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+	
+  <body>	
+    <header>
+      <h1>curriculum vitae</h1>
+      <img class="picture" src="./picture.jpg" widht="200" height="220">
+    </header>
+    
+    <main>
+      <div>
+        <h3>1. First name and Last name</h3>
+        <p><strong>Darya Lazouskaya</strong></p>
+      </div><br>
+
+      <div>
+	<h3>2. Contact Info</h3>
+        <p><b>mobile phone:</b> +375292598220</p>
+	<p><b>e-mail:</b> lozovskaya.dasha@gmail.com</p>
+        <p><b>VKontakte:</b> <a href="https://vk.com/id163776846" target="_blank">Darya Lazouskaya</a></p>
+      </div><br>
+
+      <div>
+	<h3>3. Summary</h3>
+        <p>The life is too short and the time is too valuable for me to spend it at unpleasant and low-paid work - that is what I've understood after some monthes of work at manufacture. So from that moment my goal was to get a job that would be enough interesting and challenging for me, would bring enough money to satisfy my primitive needs and would leave me some time for hobbies and rest. So it's one of the reasons why I chose to try myself at programming.</p>
+        <p>The second reason is that I have some predispositions and interest to it. I can learn new things pretty fast due to good genetics and my youth I guess. Furthermore, I tried myself earlier at programming and it was intriguing me, so I would like to explore this field better.</p>
+      </div><br>
+
+      <div>
+        <h3>4. Skills</h3>
+        <ul>
+          <li>basics of C++,</li>
+          <li>basics of JS,</li>
+          <li>basics of HTML&CSS,</li>
+          <li>LaTex,</li>
+          <li>Maxima,</li>
+          <li>Octave.</li>
+        </ul>
+      </div><br>
+		
+        <h3>5. Code examples</h3>
+	function Calculator() {
+
+  this.read = function() {
+    this.a = +prompt('a?','');
+    this.b = +prompt('b?','');
+  };
+
+  this.sum = function() {
+    return this.a + this.b;
+  };
+		  
+  this.mul = function() {
+    return this.a * this.b;
+   };
+}
+
+let calculator = new Calculator();
+calculator.read();
+
+alert( "Sum=" + calculator.sum() );
+alert( "Mul=" + calculator.mul() );
+
+      </div><br>
+		
+      <div>
+        <h3>6. Experience</h3>
+        <p>Projects at <a href="https://www.codecademy.com/profiles/Daria-L" target="_blank">Codeacademy</a>.</p>
+      </div><br>
+
+      <div>
+        <h3>7. Education</h3>
+        <ul>
+          <li>lectures at <a href="http://en.pollub.pl" target="_blank">Lublin University of Technology</a>;</li>
+          <li>Online courses at <a href="https://www.codecademy.com" target="_blank">Codeacademy</a> and <a href="https://www.pluralsight.com" target="_blank">PluralSight</a>;</li>
+          <li>Online books.</li>
+        </ul>
+      </div><br>
+		
+      <div>
+        <h3>8. English</h3>
+        <p>I've improved my English skills to the present level mostly due to my classes at <i>school</i> and <i>university</i>. In addition to it I was practising English by listening to English <i>songs</i> and learning its lyrics with understanding or by reading short fictional <i>stories</i> or <i>comic's</i>. Moreover, I was using educational platform <i><a href="https://lingualeo.com" target="_blank">LinguaLeo</a></i> some time ago.</p> 
+        <p>At this moment I'm continuing improving my language skills at <i>university</i> and by communicating with my foreign <i>friends</i> as well.</p>
+      </div>
+    </main> 
+		
+  </body>
+</html>
