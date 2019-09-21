@@ -42,31 +42,32 @@
           <li>Octave.</li>
         </ul>
       </div><br>
-	
-      <div>	
+		
+      <div>
         <h3>5. Code examples</h3>
-	function Calculator() {
 
-  this.read = function() {
-    this.a = +prompt('a?','');
-    this.b = +prompt('b?','');
-  };
-
-  this.sum = function() {
-    return this.a + this.b;
+      <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"> <span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">Calculator</span>(<span class="hljs-params"></span>) </span>{
+			
+  <span class="hljs-keyword" style="font-weight: 700;">this</span>.read = <span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword" style="font-weight: 700;">this</span>.a = +prompt(<span class="hljs-string" style="color: rgb(136, 0, 0);">'a?'</span>,<span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>);
+    <span class="hljs-keyword" style="font-weight: 700;">this</span>.b = +prompt(<span class="hljs-string" style="color: rgb(136, 0, 0);">'b?'</span>,<span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>);
   };
 		  
-  this.mul = function() {
-    return this.a * this.b;
-   };
+  <span class="hljs-keyword" style="font-weight: 700;">this</span>.sum = <span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-keyword" style="font-weight: 700;">this</span>.a + <span class="hljs-keyword" style="font-weight: 700;">this</span>.b;
+  };
+		  
+  <span class="hljs-keyword" style="font-weight: 700;">this</span>.mul = <span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-keyword" style="font-weight: 700;">this</span>.a * <span class="hljs-keyword" style="font-weight: 700;">this</span>.b;
+  };
 }
-
-let calculator = new Calculator();
+		
+<span class="hljs-keyword" style="font-weight: 700;">let</span> calculator = <span class="hljs-keyword" style="font-weight: 700;">new</span> Calculator();
 calculator.read();
 
-alert( "Sum=" + calculator.sum() );
-alert( "Mul=" + calculator.mul() );
-
+alert( <span class="hljs-string" style="color: rgb(136, 0, 0);">"Sum="</span> + calculator.sum() );
+alert( <span class="hljs-string" style="color: rgb(136, 0, 0);">"Mul="</span> + calculator.mul() );</pre>
+		
       </div><br>
 		
       <div>
