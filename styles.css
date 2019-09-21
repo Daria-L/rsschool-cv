@@ -43,6 +43,8 @@ header {
   padding: 10px 20px;
   text-transform: uppercase;
   text-align: center;
+  background-image: url("./background.jpg");
+ 
 }
 
 .picture {
