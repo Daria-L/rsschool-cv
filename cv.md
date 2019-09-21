@@ -5,7 +5,7 @@
 
 ###2. Contact Info###
 **e-mail:** lozovskaya.dasha@gmail.com
-**VKontakte:** Darya Lazouskaya
+**VKontakte:** [Darya Lazouskaya](https://vk.com/id163776846)
 **mobile phone:** +375292598220
 
 ###3. Summary###
@@ -54,15 +54,15 @@ alert( "Mul=" + calculator.mul() );
 ```
 
 ###6. Experience###
-Projects at Codeacademy.
+Projects at [Codeacademy](https://www.codecademy.com/profiles/Daria-L).
 
 ###7. Education###
-* lectures at Lublin University of Technology;
-* Online courses at Codeacademy and PluralSight;
+* lectures at [Lublin University of Technology](http://en.pollub.pl);
+* Online courses at [Codeacademy](https://www.codecademy.com) and [PluralSight](https://www.pluralsight.com);
 * Online books.
 
 ###8. English###
-I&apos;ve improved my English skills to the present level mostly due to my classes at *school* and *university*. In addition to it I was practising English by listening to English *songs* and learning its lyrics with understanding or by reading short fictional *stories* or *comic&apos;s*. Moreover, I was using educational platform *LinguaLeo* some time ago.
+I&apos;ve improved my English skills to the present level mostly due to my classes at *school* and *university*. In addition to it I was practising English by listening to English *songs* and learning its lyrics with understanding or by reading short fictional *stories* or *comic&apos;s*. Moreover, I was using educational platform *[LinguaLeo](https://lingualeo.com)* some time ago.
 
 At this moment I&apos;m continuing improving my language skills at *university* and by
 communicating with my foreign *friends* as well.
